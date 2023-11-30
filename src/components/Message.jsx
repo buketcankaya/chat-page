@@ -7,7 +7,7 @@ const Message = ({ msg }) => {
     return <p className="msg-user">{msg.text}</p>;
   }
 
-  //   mesajı başka bir kullanıcı göndertdiyse
+  //   mesajı başka bir kullanıcı gönderildiyse
   return (
     <div className="msg-other">
       <p className="user-info">
